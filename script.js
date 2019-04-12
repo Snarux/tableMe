@@ -20,8 +20,7 @@ Object.entries( incomingData[0] ).forEach(entry => {
 for(i=0; i<incomingData
 .length; i++){
         var row = table.insertRow(-1);
-        Object.entries( incomingData
-        [i] ).forEach(entry => {        
+        Object.entries( incomingData[i] ).forEach(entry => {        
             var cell = row.insertCell();
             cell.innerHTML = entry[1];
         });
