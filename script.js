@@ -10,8 +10,7 @@ var table = document.getElementById("table"); //Change Me
 
 //create table header
 var row = table.insertRow(-1);
-Object.entries( incomingData
-[0] ).forEach(entry => {        
+Object.entries( incomingData[0] ).forEach(entry => {        
     var headerCell = document.createElement("TH");
     headerCell.innerHTML = entry[0];
     row.appendChild(headerCell);
