@@ -17,8 +17,7 @@ Object.entries( incomingData[0] ).forEach(entry => {
 });
 
 //populate
-for(i=0; i<incomingData
-.length; i++){
+for(i=0; i<incomingData.length; i++){
         var row = table.insertRow(-1);
         Object.entries( incomingData[i] ).forEach(entry => {        
             var cell = row.insertCell();
